@@ -1,0 +1,12 @@
+{application, build,
+ [
+  {description, "Frobbler Build Plugin"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { rebar_frobbler, []}},
+  {env, []}
+ ]}.

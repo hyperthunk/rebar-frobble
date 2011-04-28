@@ -1,0 +1,12 @@
+{application, frobbler,
+ [
+  {description, "Frobbler - frobbles your build...."},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { frobbler_app, []}},
+  {env, []}
+ ]}.
